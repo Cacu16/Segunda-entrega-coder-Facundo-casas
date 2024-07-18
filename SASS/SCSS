@@ -1,0 +1,71 @@
+$color-primario: #007bff;
+$color-fondo: #f8f9fa;
+
+.navbar {
+  background-color: $color-primario;
+  color: white; }
+
+  .navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;}
+
+  .navbar-toggler-icon {
+  background-color: white;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $color-primario;
+  color: white;
+  border: none;
+}
+
+.btn-outline-success {
+  color: $color-primario;
+  border: 1px solid $color-primario;
+  background-color: white;
+}
+
+header {
+  background-color: $color-fondo;
+  padding: 20px;
+  text-align: center;
+}
+
+.fa-motorcycle {
+  color: $color-primario;
+  font-size: 24px;
+}
+
+
+h1 {
+  color: $color-primario;
+  font-size: 36px;
+}
+
+h3#LosCircuitos {
+  font-weight: bold;
+}
+
+.textoNegrita {
+  font-weight: bold;
+}
+
+
+@import 'base/variables';
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'layout/header';
+@import 'pages/home';
+@import 'pages/cubiertas';
+@import 'pages/circuitos';
+@import 'pages/comparti';
+@import 'pages/marcas';
+@import 'pages/opiniones';
+
